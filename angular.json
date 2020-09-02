@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "custom-directive": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "custom-directive"
+    }
+  },
+  "defaultProject": "custom-directive",
+  "cli": {
+    "analytics": "822edfcc-27d5-45d0-801c-1a3680242c62"
+  }
 }

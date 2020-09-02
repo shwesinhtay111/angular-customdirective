@@ -1,0 +1,14 @@
+.blue {
+    background-color: rgb(73, 192, 79);
+  }
+ 
+  .toggle {
+    background-color: yellow
+  }
+
+  .tooltip {
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+    position: absolute;
+  }
+   
