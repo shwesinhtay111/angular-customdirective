@@ -45,7 +45,9 @@ custom attribute Directive
 - three kinds of directive
 
 	1)Attribute directive-(ngStyle,ngClass)
+  
 	2)Structural directive-(ngIf,ngSwitch,ngFor)
+  
 	3)Component
   
 - manipulating the DOM, we need ViewContainerRef and TemplateRef instances
