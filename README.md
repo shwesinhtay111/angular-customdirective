@@ -3,13 +3,13 @@ Custom Directive
 custom attribute Directive
 ============================
 
--has several built-in attribute directives
+- has several built-in attribute directives
 
--ttClass directive :: allow to add class to an element
+- ttClass directive :: allow to add class to an element
 
--create a new file and name it as tt-class.directive.ts
+- create a new file and name it as tt-class.directive.ts
 
--import necessary libraries:
+- import necessary libraries:
 
 	import { Directive, ElementRef, Input, OnInit } from '@angular/core'
   
@@ -20,7 +20,7 @@ custom attribute Directive
       })
       export class ttClassDirective implements OnInit { }
       
--In app.module.ts,add custom directive as follow and import:
+- In app.module.ts,add custom directive as follow and import:
 
           declarations: [
                 AppComponent,
@@ -28,29 +28,29 @@ custom attribute Directive
             ],
       -import { ttClassDirective } from './tt-class.directive';
       
--ElementRef is a wrapper for Parent DOM element
+- ElementRef is a wrapper for Parent DOM element
 
--access DOM element via property nativeElelment
+- access DOM element via property nativeElelment
 
--classList method allows us to add class to element
+- classList method allows us to add class to element
 
--Input decorator marks the property ttClass as the input property
+- Input decorator marks the property ttClass as the input property
 
 	@Input() ttClass: string;
   
--will enable us to use the property binding syntax <button [ttClass]="'blue'"> in the component
+- will enable us to use the property binding syntax <button [ttClass]="'blue'"> in the component
 
--can create more than @Input properties
+- can create more than @Input properties
 
--three kinds of directive
+- three kinds of directive
 
 	1)Attribute directive-(ngStyle,ngClass)
 	2)Structural directive-(ngIf,ngSwitch,ngFor)
 	3)Component
   
--manipulating the DOM, we need ViewContainerRef and TemplateRef instances
+- manipulating the DOM, we need ViewContainerRef and TemplateRef instances
 
--easy to listen to the events from the parent or host element using the@HostListener function decorator
+- easy to listen to the events from the parent or host element using the@HostListener function decorator
 
 
 # CustomDirective
